@@ -1,0 +1,46 @@
+FEW-SHOT CLASSIFICATION — ACCURACY RESULTS
+
+Dataset:
+- Omniglot Dataset
+
+Model:
+- Unsupervised Deep Belief Network (DBN)
+
+Objective:
+The objective of the project was to evaluate the performance of Deep Belief Networks for few-shot image classification under limited labelled data conditions.
+
+The experiments focused on:
+- representation learning
+- unsupervised feature extraction
+- low-data classification scenarios
+
+Evaluation Strategy:
+The model was evaluated using few-shot learning settings where only a limited number of labelled examples per class were available during training.
+
+Performance Metrics:
+- Classification Accuracy
+- Generalization Capability
+- Feature Representation Quality
+
+Main Observations:
+- The model successfully learned meaningful latent representations from the Omniglot dataset.
+- Unsupervised pretraining improved downstream classification performance.
+- Performance remained stable even with reduced labelled samples.
+- Representation learning significantly improved class separability.
+
+Experimental Findings:
+- Few-shot learning performance benefits from unsupervised feature extraction.
+- Deep Belief Networks can capture relevant structural patterns in handwritten characters.
+- Learned embeddings improved robustness in low-data settings.
+- The Omniglot dataset provides a strong benchmark for evaluating generalization capabilities.
+
+Conclusions:
+The experiments demonstrated that Deep Belief Networks are capable of learning useful feature representations for few-shot image classification tasks.
+
+The project also highlighted the importance of:
+- representation learning
+- unsupervised pretraining
+- latent feature extraction
+- low-data generalization
+
+for building effective few-shot learning systems.
